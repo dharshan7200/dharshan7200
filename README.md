@@ -139,18 +139,6 @@ public class Dharshan extends BackendEngineer {
 
 ---
 
-## 📊 GitHub Statistics
-
-<div align="center">
-
-<img width="49%" src="https://github-readme-stats.vercel.app/api?username=dharshan7200&show_icons=true&theme=radical&hide_border=true&bg_color=0d1117&title_color=6EE7B7&icon_color=60A5FA&text_color=c9d1d9&rank_icon=github" alt="GitHub Stats"/>
-<img width="49%" src="https://github-readme-streak-stats.herokuapp.com?user=dharshan7200&theme=radical&hide_border=true&background=0d1117&ring=6EE7B7&fire=60A5FA&currStreakLabel=6EE7B7&sideLabels=c9d1d9&dates=888" alt="GitHub Streak"/>
-
-<br/>
-
-<img width="40%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=dharshan7200&layout=compact&theme=radical&hide_border=true&bg_color=0d1117&title_color=6EE7B7&text_color=c9d1d9&langs_count=8" alt="Top Languages"/>
-
-</div>
 
 ---
 
