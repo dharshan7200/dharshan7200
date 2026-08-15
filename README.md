@@ -154,12 +154,6 @@ public class Dharshan extends BackendEngineer {
 
 ---
 
-## 📈 Contribution Activity
-
-<div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=dharshan7200&bg_color=0d1117&color=6EE7B7&line=60A5FA&point=A78BFA&area=true&hide_border=true&area_color=6EE7B720" width="100%" alt="Contribution Graph"/>
-</div>
-
 ---
 
 ## 🚀 Featured Projects
