@@ -342,54 +342,6 @@ public class Dharshan extends BackendEngineer {
 
 ---
 
-## 🐍 Contribution Snake
-
-<div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/dharshan7200/dharshan7200/output/github-contribution-grid-snake-dark.svg"/>
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/dharshan7200/dharshan7200/output/github-contribution-grid-snake.svg"/>
-    <img alt="GitHub Contribution Snake" src="https://raw.githubusercontent.com/dharshan7200/dharshan7200/output/github-contribution-grid-snake-dark.svg"/>
-  </picture>
-</div>
-
-> ⚙️ **Note:** To enable the snake animation, set up the [platane/snk](https://github.com/platane/snk) GitHub Action in your profile repository. See setup instructions below.
-
-<details>
-<summary>🔧 Snake Animation Setup (click to expand)</summary>
-
-Create `.github/workflows/snake.yml` in your profile repository (`dharshan7200/dharshan7200`):
-
-```yaml
-name: Generate Snake Animation
-
-on:
-  schedule:
-    - cron: "0 */12 * * *"
-  workflow_dispatch:
-
-jobs:
-  generate:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: Platane/snk/svg-only@v3
-        with:
-          github_user_name: ${{ github.repository_owner }}
-          outputs: |
-            dist/github-contribution-grid-snake.svg
-            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
-
-      - uses: crazy-max/ghaction-github-pages@v3.1.0
-        with:
-          target_branch: output
-          build_dir: dist
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-```
-
-</details>
-
----
-
 <div align="center">
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=120&section=footer&animation=fadeIn" width="100%"/>
